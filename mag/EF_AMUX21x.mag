@@ -392,7 +392,7 @@ rect 4591 -7517 4787 -6661
 rect 4591 -7917 4607 -7517
 rect 4770 -7917 4787 -7517
 rect 4591 -8444 4787 -7917
-use simple_analog_switch_2  simple_analog_switch_2_0 ../dependencies/sky130_ef_ip__analog_switches/mag
+use simple_analog_switch_2  simple_analog_switch_2_0 ../ip/sky130_ef_ip__analog_switches/mag
 timestamp 1724439637
 transform 1 0 -230 0 1 -8538
 box 1210 24 4680 2170

@@ -140,7 +140,7 @@ rect 4245 141 4441 1511
 rect 4245 11 4257 141
 rect 4429 11 4441 141
 rect 4245 -1207 4441 11
-use simple_analog_switch  simple_analog_switch_0 ../dependencies/sky130_ef_ip__analog_switches/mag
+use simple_analog_switch  simple_analog_switch_0 ../ip/sky130_ef_ip__analog_switches/mag
 timestamp 1722435879
 transform 1 0 -14 0 1 -858
 box 577 24 4997 1570
