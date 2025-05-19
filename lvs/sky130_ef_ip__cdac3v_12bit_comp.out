@@ -256,10 +256,10 @@ sel                                                 |sel
 vss                                                 |vss                                                 
 vo                                                  |vo                                                  
 selcm                                               |selcm                                               
+vdd1p8                                              |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_AMUX21x and EF_AMUX21x are equivalent.
-  Flattening non-matched subcircuits EF_AMUX21x EF_AMUX21x
 
 Subcircuit summary:
 Circuit 1: sky130_fd_sc_hvl__decap_4                |Circuit 2: sky130_fd_sc_hvl__decap_4                
@@ -368,38 +368,30 @@ AVSS                                                |AVSS
 VIN                                                 |VIN                                                 
 AVDD                                                |AVDD                                                
 DVSS                                                |DVSS                                                
+DVDD                                                |(no matching pin)                                   
+m3_2464_n194#                                       |(no matching pin)                                   
+m3_1864_n2876#                                      |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_SW_RST and EF_SW_RST are equivalent.
-  Flattening non-matched subcircuits EF_SW_RST EF_SW_RST
 
-Cell EF_AMUX0201_ARRAY1 (0) disconnected node: DVDD
-Class EF_AMUX0201_ARRAY1 (0):  Merged 11 parallel devices.
-Class EF_AMUX0201_ARRAY1 (1):  Merged 11 parallel devices.
 Cell EF_AMUX0201_ARRAY1 (0) disconnected node: DVDD
 Subcircuit summary:
 Circuit 1: EF_AMUX0201_ARRAY1                       |Circuit 2: EF_AMUX0201_ARRAY1                       
 ----------------------------------------------------|----------------------------------------------------
-simple_analog_switch_2 (36)                         |simple_analog_switch_2 (36)                         
-sky130_fd_sc_hvl__inv_2 (60)                        |sky130_fd_sc_hvl__inv_2 (60)                        
-sky130_fd_sc_hvl__decap_8 (48->1)                   |sky130_fd_sc_hvl__decap_8 (48->1)                   
-sky130_fd_sc_hvl__nor2_1 (24)                       |sky130_fd_sc_hvl__nor2_1 (24)                       
-Number of devices: 121                              |Number of devices: 121                              
-Number of nets: 116 **Mismatch**                    |Number of nets: 115 **Mismatch**                    
+EF_AMUX21x (12)                                     |EF_AMUX21x (12)                                     
+Number of devices: 12                               |Number of devices: 12                               
+Number of nets: 32 **Mismatch**                     |Number of nets: 31 **Mismatch**                     
 ---------------------------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: EF_AMUX0201_ARRAY1                       |Circuit 2: EF_AMUX0201_ARRAY1                       
 
 ---------------------------------------------------------------------------------------------------------
 Net: x4/selcm                                       |Net: RST                                            
-  sky130_fd_sc_hvl__inv_2/A = 6                     |  sky130_fd_sc_hvl__inv_2/A = 12                    
-  sky130_fd_sc_hvl__nor2_1/A = 6                    |  sky130_fd_sc_hvl__nor2_1/A = 12                   
-  sky130_fd_sc_hvl__nor2_1/B = 6                    |  sky130_fd_sc_hvl__nor2_1/B = 12                   
+  EF_AMUX21x/selcm = 6                              |  EF_AMUX21x/selcm = 12                             
                                                     |                                                    
 Net: x9/selcm                                       |(no matching net)                                   
-  sky130_fd_sc_hvl__inv_2/A = 6                     |                                                    
-  sky130_fd_sc_hvl__nor2_1/A = 6                    |                                                    
-  sky130_fd_sc_hvl__nor2_1/B = 6                    |                                                    
+  EF_AMUX21x/selcm = 6                              |                                                    
 ---------------------------------------------------------------------------------------------------------
 Netlists do not match.
 Port matching may fail to disambiguate symmetries.
@@ -446,10 +438,10 @@ D6                                                  |D6
 D7                                                  |D7                                                  
 D11                                                 |D11                                                 
 VSS                                                 |VSS                                                 
+w_58549_n26640#                                     |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_BANK_CAP_12 and EF_BANK_CAP_12 are equivalent.
-  Flattening non-matched subcircuits EF_BANK_CAP_12 EF_BANK_CAP_12
 
 Class cdac_lvlshift_array (0):  Merged 14 parallel devices.
 Class cdac_lvlshift_array (1):  Merged 14 parallel devices.
@@ -512,29 +504,23 @@ Device classes cdac_lvlshift_array and cdac_lvlshift_array are equivalent.
 Subcircuit summary:
 Circuit 1: sky130_ef_ip__cdac3v_12bit               |Circuit 2: sky130_ef_ip__cdac3v_12bit               
 ----------------------------------------------------|----------------------------------------------------
-simple_analog_switch (2)                            |simple_analog_switch (2)                            
-simple_analog_switch_2 (36)                         |simple_analog_switch_2 (36)                         
-sky130_fd_sc_hvl__inv_2 (60)                        |sky130_fd_sc_hvl__inv_2 (60)                        
-sky130_fd_sc_hvl__decap_8 (48->1)                   |sky130_fd_sc_hvl__decap_8 (48->1)                   
-sky130_fd_sc_hvl__nor2_1 (24)                       |sky130_fd_sc_hvl__nor2_1 (24)                       
-sky130_fd_pr__cap_mim_m3_1 (190->15)                |sky130_fd_pr__cap_mim_m3_1 (190->15)                
-sky130_fd_pr__cap_mim_m3_2 (190->15)                |sky130_fd_pr__cap_mim_m3_2 (190->15)                
+EF_SW_RST (1)                                       |EF_SW_RST (1)                                       
+EF_AMUX21x (12)                                     |EF_AMUX21x (12)                                     
+EF_BANK_CAP_12 (1)                                  |EF_BANK_CAP_12 (1)                                  
 cdac_lvlshift_array (1)                             |cdac_lvlshift_array (1)                             
-Number of devices: 154                              |Number of devices: 154                              
-Number of nets: 136                                 |Number of nets: 136                                 
+Number of devices: 15                               |Number of devices: 15                               
+Number of nets: 52                                  |Number of nets: 52                                  
 ---------------------------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: sky130_ef_ip__cdac3v_12bit               |Circuit 2: sky130_ef_ip__cdac3v_12bit               
 ----------------------------------------------------|----------------------------------------------------
-VL                                                  |VL                                                  
 VH                                                  |VH                                                  
+VL                                                  |VL                                                  
 VCM                                                 |VCM                                                 
 Vref                                                |Vref                                                
 VIN                                                 |VIN                                                 
-DVSS                                                |DVSS                                                
-VSS                                                 |VSS                                                 
 SELD3                                               |SELD3                                               
 SELD7                                               |SELD7                                               
 SELD11                                              |SELD11                                              
@@ -550,7 +536,9 @@ DVDD                                                |DVDD
 SELD0                                               |SELD0                                               
 HOLD                                                |HOLD                                                
 RST                                                 |RST                                                 
+VSS                                                 |VSS                                                 
 VDD                                                 |VDD                                                 
+DVSS                                                |DVSS                                                
 OUTNC                                               |OUTNC                                               
 OUT                                                 |OUT                                                 
 ---------------------------------------------------------------------------------------------------------

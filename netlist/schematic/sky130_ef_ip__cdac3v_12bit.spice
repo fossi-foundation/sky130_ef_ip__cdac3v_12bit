@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/sky130_ef_ip__cdac3v_12bit.sch
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/sky130_ef_ip__cdac3v_12bit.sch
 .subckt sky130_ef_ip__cdac3v_12bit SELD0 SELD1 SELD2 SELD3 SELD4 SELD5 SELD6 SELD7 SELD8 SELD9 VDD DVDD DVSS VSS VH VL OUT RST
 + OUTNC SELD10 SELD11 VCM Vref VIN HOLD
 *.PININFO SELD0:I SELD1:I SELD2:I SELD3:I SELD4:I SELD5:I SELD6:I SELD7:I SELD8:I SELD9:I VDD:B DVDD:B DVSS:B VH:B VL:B VSS:B
@@ -12,8 +12,8 @@ x2 SELD3 sel3_3v3 sel7_3v3 SELD7 sel11_3v3 SELD11 SELD6 sel6_3v3 SELD10 sel2_3v3
 .ends
 
 * expanding   symbol:  EF_BANK_CAP_12.sym # of pins=16
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_BANK_CAP_12.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_BANK_CAP_12.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_BANK_CAP_12.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_BANK_CAP_12.sch
 .subckt EF_BANK_CAP_12 D8 D0 D4 VP1 D9 D5 D1 VP2 D2 D6 VSS D7 D3 D10 D11 Vref
 *.PININFO D0:B D1:B D2:B D3:B D4:B D5:B D6:B D7:B D8:B D9:B VSS:B VP1:B VP2:B D10:B D11:B Vref:B
 x4 VP1 VSS D0 D1 D2 D3 D4 D5 Vref EF_LSB_CAP
@@ -23,8 +23,8 @@ x2 VP1 VP2 VSS EF_SC_CAP
 
 
 * expanding   symbol:  EF_AMUX0201_ARRAY1.sym # of pins=31
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX0201_ARRAY1.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX0201_ARRAY1.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX0201_ARRAY1.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX0201_ARRAY1.sch
 .subckt EF_AMUX0201_ARRAY1 D0 SELD0 D1 SELD1 SELD2 D2 SELD3 SELD4 D3 SELD5 D4 SELD6 SELD7 D5 SELD8 D6 SELD9 D7 D8 D9 VDD DVSS VH
 + VL VSS D10 D11 SELD10 SELD11 VCM RST
 *.PININFO VDD:B DVSS:B VH:B VL:B SELD0:I SELD1:I SELD2:I SELD3:I SELD4:I SELD5:I SELD6:I SELD7:I SELD8:I SELD9:I VSS:B D0:B D1:B
@@ -45,8 +45,8 @@ x7 VDD D11 VSS VH VL SELD11 DVSS VCM RST EF_AMUX21x
 
 
 * expanding   symbol:  EF_SW_RST.sym # of pins=8
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SW_RST.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SW_RST.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_SW_RST.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_SW_RST.sch
 .subckt EF_SW_RST VP1 VP2 AVDD AVSS HOLD VIN DVSS HOLDB
 *.PININFO HOLD:I AVDD:B AVSS:B VP2:B VP1:B VIN:B DVSS:B HOLDB:I
 x4 HOLDB HOLD AVSS VIN VP1 AVDD simple_analog_switch
@@ -55,8 +55,8 @@ x5 HOLDB HOLD AVSS VP2 VIN AVDD simple_analog_switch
 
 
 * expanding   symbol:  cdac_lvlshift_array.sym # of pins=32
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/cdac_lvlshift_array.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/cdac_lvlshift_array.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/cdac_lvlshift_array.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/cdac_lvlshift_array.sch
 .subckt cdac_lvlshift_array sel3 sel3_3p3 sel7_3p3 sel7 sel11_3p3 sel11 sel6 sel6_3p3 sel10 sel2_3p3 sel10_3p3 sel2 sel1_3p3
 + sel5_3p3 sel5 sel1 sel9 sel9_3p3 vdd3p3 vss sel0_3p3 sel4 sel4_3p3 sel8_3p3 sel8 vdd1p8 sel0 hold_3p3 hold rst_3p3 rst holdb_3p3
 *.PININFO sel0:I vdd3p3:B vss:B vdd1p8:B rst:I sel0_3p3:O rst_3p3:O sel1:I sel1_3p3:O sel2:I sel2_3p3:O sel3:I sel3_3p3:O sel4:I
@@ -106,12 +106,15 @@ x29[2] vss vss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_4
 x29[1] vss vss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_4
 x29[0] vss vss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_4
 x29 hold_3p3 vss vss vdd3p3 vdd3p3 holdb_3p3 sky130_fd_sc_hvl__inv_2
+* noconn vdd3p3
+* noconn vss
+* noconn vdd1p8
 .ends
 
 
 * expanding   symbol:  EF_LSB_CAP.sym # of pins=9
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_LSB_CAP.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_LSB_CAP.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_LSB_CAP.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_LSB_CAP.sch
 .subckt EF_LSB_CAP VP1 VSS D0 D1 D2 D3 D4 D5 Vref
 *.PININFO VP1:B D0:B D1:B D2:B D3:B D4:B VSS:B D5:B Vref:B
 XC1 VP1 Vref sky130_fd_pr__cap_mim_m3_1 W=7 L=7 m=1
@@ -134,8 +137,8 @@ XC16 D5 VP1 sky130_fd_pr__cap_mim_m3_2 W=7 L=7 m=32
 
 
 * expanding   symbol:  EF_MSB_CAP.sym # of pins=8
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_MSB_CAP.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_MSB_CAP.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_MSB_CAP.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_MSB_CAP.sch
 .subckt EF_MSB_CAP D8 D10 D9 VP2 D6 VSS D7 D11
 *.PININFO D10:B D6:B D7:B D8:B D9:B VP2:B VSS:B D11:B
 XC2 D6 VP2 sky130_fd_pr__cap_mim_m3_2 W=7 L=7 m=1
@@ -156,8 +159,8 @@ XC5 D11 VP2 sky130_fd_pr__cap_mim_m3_2 W=7 L=7 m=32
 
 
 * expanding   symbol:  EF_SC_CAP.sym # of pins=3
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SC_CAP.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SC_CAP.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_SC_CAP.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_SC_CAP.sch
 .subckt EF_SC_CAP VP1 VP2 VSS
 *.PININFO VP1:B VP2:B VSS:B
 XC13 VP1 VP2 sky130_fd_pr__cap_mim_m3_1 W=7 L=7.055 m=1
@@ -168,8 +171,8 @@ XC2 VP2 VP1 sky130_fd_pr__cap_mim_m3_2 W=7 L=7.055 m=1
 
 
 * expanding   symbol:  EF_AMUX21x.sym # of pins=9
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX21x.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX21x.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX21x.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/xschem/EF_AMUX21x.sch
 .subckt EF_AMUX21x vdd3p3 vo vss a b sel dvss cm selcm
 *.PININFO sel:I vo:B vdd3p3:B vss:B dvss:B a:B b:B cm:B selcm:I
 x2 sel dvss dvss vdd3p3 vdd3p3 net1 sky130_fd_sc_hvl__inv_2
@@ -186,12 +189,13 @@ x4[3] dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_8
 x4[2] dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_8
 x4[1] dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_8
 x4[0] dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__decap_8
+* noconn dvss
 .ends
 
 
 * expanding   symbol:  simple_analog_switch.sym # of pins=6
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/ip/sky130_ef_ip__analog_switches/xschem/simple_analog_switch.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/ip/sky130_ef_ip__analog_switches/xschem/simple_analog_switch.sch
 .subckt simple_analog_switch on off vss out in vdd
 *.PININFO on:I out:B vdd:B vss:B in:B off:I
 XM1 in on out vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=2 m=1
@@ -204,12 +208,11 @@ XM6 in on in vdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=4 nf=2 m=1
 
 
 * expanding   symbol:  simple_analog_switch_2.sym # of pins=6
-** sym_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_2.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_2.sch
+** sym_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/ip/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_2.sym
+** sch_path: /home/tim/gits/sky130_ef_ip__cdac3v_12bit/ip/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_2.sch
 .subckt simple_analog_switch_2 on off vss out in vdd
 *.PININFO on:I out:B vdd:B vss:B in:B off:I
 XM1 in on out vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=20 nf=4 m=1
 XM2 in off out vdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=40 nf=8 m=1
 .ends
 
-.end

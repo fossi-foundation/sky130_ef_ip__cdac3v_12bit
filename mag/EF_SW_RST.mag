@@ -1,13 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731117925
+timestamp 1747669346
 << dnwell >>
-rect 673 603 4874 1007
+rect 673 604 4897 1007
+rect 673 603 4874 604
 << nwell >>
 rect 634 2450 4105 2916
 rect 737 2444 872 2450
-rect 563 712 4983 904
+rect 563 712 5006 904
 rect 633 -1477 4104 -834
 << metal1 >>
 rect 820 2564 961 2568
@@ -141,13 +142,13 @@ rect 4245 11 4257 141
 rect 4429 11 4441 141
 rect 4245 -1207 4441 11
 use simple_analog_switch  simple_analog_switch_0 ../ip/sky130_ef_ip__analog_switches/mag
-timestamp 1722435879
+timestamp 1747669346
 transform 1 0 -14 0 1 -858
-box 577 24 4997 1570
+box 577 24 5020 1576
 use simple_analog_switch  simple_analog_switch_1
-timestamp 1722435879
+timestamp 1747669346
 transform 1 0 -14 0 1 880
-box 577 24 4997 1570
+box 577 24 5020 1576
 << labels >>
 flabel metal3 3105 -1078 3305 -878 0 FreeSans 256 0 0 0 DVSS
 port 6 nsew

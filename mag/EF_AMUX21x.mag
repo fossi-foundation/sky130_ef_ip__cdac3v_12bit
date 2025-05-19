@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731105185
+timestamp 1747669346
 << error_s >>
 rect 1008 -1548 4421 -1475
 rect 1008 -8839 4421 -8763
@@ -393,59 +393,59 @@ rect 4591 -7917 4607 -7517
 rect 4770 -7917 4787 -7517
 rect 4591 -8444 4787 -7917
 use simple_analog_switch_2  simple_analog_switch_2_0 ../ip/sky130_ef_ip__analog_switches/mag
-timestamp 1724439637
+timestamp 1747669346
 transform 1 0 -230 0 1 -8538
-box 1210 24 4680 2170
+box 1210 24 4680 2176
 use simple_analog_switch_2  simple_analog_switch_2_1
-timestamp 1724439637
+timestamp 1747669346
 transform 1 0 -230 0 1 -3958
-box 1210 24 4680 2170
+box 1210 24 4680 2176
 use simple_analog_switch_2  simple_analog_switch_2_2
-timestamp 1724439637
+timestamp 1747669346
 transform 1 0 -230 0 1 -6248
-box 1210 24 4680 2170
+box 1210 24 4680 2176
 use sky130_fd_sc_hvl__decap_8  sky130_fd_sc_hvl__decap_8_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -7550
 box -66 -43 834 897
 use sky130_fd_sc_hvl__decap_8  sky130_fd_sc_hvl__decap_8_1
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -2670
 box -66 -43 834 897
 use sky130_fd_sc_hvl__decap_8  sky130_fd_sc_hvl__decap_8_2
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -1902
 box -66 -43 834 897
 use sky130_fd_sc_hvl__decap_8  sky130_fd_sc_hvl__decap_8_3
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -6782
 box -66 -43 834 897
 use sky130_fd_sc_hvl__inv_2  sky130_fd_sc_hvl__inv_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 1 0 -3918
 box -66 -43 546 897
 use sky130_fd_sc_hvl__inv_2  sky130_fd_sc_hvl__inv_2_1
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -4878
 box -66 -43 546 897
 use sky130_fd_sc_hvl__inv_2  sky130_fd_sc_hvl__inv_2_2
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 1 0 -4878
 box -66 -43 546 897
 use sky130_fd_sc_hvl__inv_2  sky130_fd_sc_hvl__inv_2_3
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 1 0 -6318
 box -66 -43 546 897
 use sky130_fd_sc_hvl__inv_2  sky130_fd_sc_hvl__inv_2_5
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -5358
 box -66 -43 546 897
 use sky130_fd_sc_hvl__nor2_1  sky130_fd_sc_hvl__nor2_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 1 0 -4398
 box -66 -43 546 897
 use sky130_fd_sc_hvl__nor2_1  sky130_fd_sc_hvl__nor2_1_1
-timestamp 1729530005
+timestamp 1747669346
 transform 0 1 4872 -1 0 -6318
 box -66 -43 546 897
 << labels >>
